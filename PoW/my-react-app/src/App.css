@@ -1,0 +1,118 @@
+.hero {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+body {
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #0f172a
+  );
+  color: white;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  min-width: 150px;
+  text-align: center;
+  transition: 0.3s;
+  gap: 40px;
+    margin-top: 30px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+}
+.section {
+  padding: 80px 20px;
+  margin-top: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 80px;
+  align-items:center;
+}
+.nav-links {
+  display: flex;
+  gap: 40px; 
+}
+.contact-form button {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 400px;
+  padding: 15px;
+  border: 2px solid #334155;
+  border-radius: 12px;
+  background-color: #1e293b;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #94a3b8;
+}
+.contact-form {
+  width: 430px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #111827;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
